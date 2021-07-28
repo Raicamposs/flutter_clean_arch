@@ -1,8 +1,9 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_clean_arch/core/error/failure.dart';
-import 'package:flutter_clean_arch/core/usecase/usecase.dart';
-import 'package:flutter_clean_arch/features/domain/entities/user.dart';
-import 'package:flutter_clean_arch/features/domain/repositories/do_login_repository.dart';
+
+import '../../../core/usecase/index.dart';
+import '../../../features/domain/entities/index.dart';
+import '../../../features/domain/repositories/index.dart';
 
 class DoLoginParams {
   final String password;
